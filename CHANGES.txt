@@ -65,6 +65,8 @@ Bug Fixes
 * SOLR-2192: StreamingUpdateSolrServer.blockUntilFinished was not
   thread safe and could throw an exception. (yonik)
 
+* SOLR-1667: PatternTokenizer does not reset attributes such as positionIncrement
+  (Robert Muir via shalin)
 
 ================== Release 1.4.1 ==================
 Release Date:  See http://lucene.apache.org/solr for the official release date.
