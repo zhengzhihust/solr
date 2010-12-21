@@ -68,6 +68,10 @@ Bug Fixes
 * SOLR-1667: PatternTokenizer does not reset attributes such as positionIncrement
   (Robert Muir via shalin)
 
+ * SOLR-1993: fix String cast assumption in JavaBinCodec - specific
+   addresses "commitWithin" option on Update requests.
+   (noble, hossman, and Maxim Valyanskiy)
+
 ================== Release 1.4.1 ==================
 Release Date:  See http://lucene.apache.org/solr for the official release date.
 
