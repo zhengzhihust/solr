@@ -8,6 +8,10 @@ CHANGES
 
 $Id:$
 
+================== (maint. branch) ================
+
+* SOLR-2395: Replace download link target from Carrot2 to Maven Central
+
 ================== Release 1.4.0 ==================
 
 Solr Clustering will be released for the first time in Solr 1.4.  See http://wiki.apache.org/solr/ClusteringComponent
