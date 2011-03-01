@@ -80,7 +80,7 @@
   </target>
   <target name="get-nni" depends="check-files" unless="nni.exists">
     <!-- Get the LGPL deps and put them in a separate dir -->
-    <get src="http://download.carrot2.org/maven2/org/carrot2/nni/1.0.0/nni-1.0.0.jar"
+    <get src="http://repo1.maven.org/maven2/com/carrotsearch/nni/1.0.0/nni-1.0.0.jar"
          dest="${download.dir}/nni-1.0.0.jar"/>
   </target>
 
