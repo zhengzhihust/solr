@@ -22,6 +22,7 @@ import org.apache.lucene.analysis.StopFilter;
 import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.analysis.TokenStream;
 
+import java.org.apache.solr.analysis.BaseTokenFilterFactory;
 import java.util.Map;
 import java.util.List;
 import java.util.Set;

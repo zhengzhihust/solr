@@ -15,10 +15,12 @@
  * limitations under the License.
  */
 
-package org.apache.solr.analysis;
+package java.org.apache.solr.analysis;
 
 
 import java.util.Map;
+
+import org.apache.solr.analysis.TokenFilterFactory;
 
 /**
  * Simple abstract implementation that handles init arg processing.

@@ -23,6 +23,7 @@ import org.apache.solr.core.SolrCore;
 import org.apache.solr.util.StrUtils;
 
 import java.io.IOException;
+import java.org.apache.solr.analysis.BaseTokenFilterFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

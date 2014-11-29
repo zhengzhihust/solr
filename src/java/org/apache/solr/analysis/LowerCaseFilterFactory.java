@@ -17,6 +17,8 @@
 
 package org.apache.solr.analysis;
 
+import java.org.apache.solr.analysis.BaseTokenFilterFactory;
+
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.LowerCaseFilter;
 

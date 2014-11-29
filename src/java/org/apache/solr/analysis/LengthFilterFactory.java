@@ -20,6 +20,7 @@ package org.apache.solr.analysis;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.LengthFilter;
 
+import java.org.apache.solr.analysis.BaseTokenFilterFactory;
 import java.util.Map;
 
 /**

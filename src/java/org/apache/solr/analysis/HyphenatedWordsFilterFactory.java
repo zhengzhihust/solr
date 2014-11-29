@@ -18,13 +18,13 @@ package org.apache.solr.analysis;
  */
 
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.solr.analysis.BaseTokenFilterFactory;
+import com.sun.org.apache.xerces.internal.impl.dv.xs.BaseDVFactory;
 
 /**
  * Factory for HyphenatedWordsFilter
  * @author Boris Vitez
  */
-public class HyphenatedWordsFilterFactory extends BaseTokenFilterFactory {
+public class HyphenatedWordsFilterFactory extends BaseDVFactory {
 	public TokenStream create(TokenStream input) {
 		return new HyphenatedWordsFilter(input);
 	}

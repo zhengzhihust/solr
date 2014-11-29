@@ -23,6 +23,7 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.TokenFilter;
 import org.apache.lucene.analysis.Token;
 
+import java.org.apache.solr.analysis.BaseTokenFilterFactory;
 import java.util.Map;
 import java.util.List;
 import java.util.Set;
